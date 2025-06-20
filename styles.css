@@ -48,3 +48,21 @@ section {
 footer {
   font-size: 14px;
 }
+
+
+/* Gallery hover animation */
+.gallery-img {
+  transition: transform 0.4s ease;
+  border-radius: 10px;
+}
+
+.gallery-img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+/* Carousel image rounded */
+.carousel-inner img {
+  max-height: 500px;
+  object-fit: cover;
+}
